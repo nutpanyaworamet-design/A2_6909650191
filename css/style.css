@@ -1,0 +1,44 @@
+body {
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+h1, h2, h3 {
+  border-bottom: 4px solid red;
+  padding-bottom: 6px;
+  display: inline-block;
+}
+
+a {
+  color: red;
+}
+
+.topbar {
+  background-color: #1a1a1a;
+  border-bottom: 2px solid red;
+}
+
+.topbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.topbar a:hover {
+  color: red;
+}
+
+.box {
+  background-color: #1a1a1a;
+  border: 1px solid #444;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  border-top: 2px solid red;
+}
+
+@media (max-width: 767px) {
+  h1 { font-size: 28px; }
+  h2 { font-size: 24px; }
+}
